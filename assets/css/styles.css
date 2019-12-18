@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,700&display=swap');
+
+body {
+    background: #253549;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Nav */
+.navbar-brand {
+    color: #ffffff;
+}
+
+.jumbotron {
+    background: #253549;
+    background: url("../img/movie.jpg");
+    background-size: cover;
+}
+
+.text-center {
+    background: #253549;
+}
+
+/* Movie results display */
+#movies .col-md-3 {
+    padding: 10px;
+    color: #ffffff
+}
+
+#movies img {
+    padding: 25px;
+    width:100%;
+}
+
+
+/* Movie info page */
+
+#movie div.well {
+    padding: 1em;
+}
+
+#movie h2, h3, div.well, .btn-default {
+    color: #ffffff;
+}
